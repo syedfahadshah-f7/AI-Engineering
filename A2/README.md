@@ -2,6 +2,8 @@
 
 **AI Engineering, Assignment 02** · Syed Fahad Faheem Shah · Roll No. 23K-0062
 
+**▶ Demo video (screen recording):** [Watch on Google Drive](https://drive.google.com/file/d/1rPq-ZaCOy-Y8f5xzLLTMd3TDSLDAwubB/view?usp=sharing)
+
 Is a model that decides in milliseconds more useful than a frontier LLM that spends longer planning, if the
 slower model solves the task in fewer moves? Four models race on the **same scrambled 3×3 cube**, one move at a
 time, through OpenRouter, and the app measures speed and solution quality.
