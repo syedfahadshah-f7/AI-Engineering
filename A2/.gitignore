@@ -1,0 +1,35 @@
+# secrets: never commit the API key
+.env
+*.env
+!.env.example
+
+# Claude Code / editor / OS files
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# node / build output
+node_modules/
+frontend/dist/
+
+# runtime state created when the app runs (cache, budget ledger, request logs, simulated results)
+backend/data/
+backend/logs/
+backend/results/mock/
+# backend/results/openrouter/ is NOT ignored: it is the evidence of the real run
+
+# the course assignment brief (not part of the submission)
+assignment-02.pdf
+
+A2_backup_before_cleanup.zip
+
+.env.example
